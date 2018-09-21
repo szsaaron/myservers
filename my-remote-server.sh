@@ -4,7 +4,7 @@
 #current_wlan_ip=$(echo `nc ns1.dnspod.net 6666`)
 #current_wlan_ip=$(curl icanhazip.com)
 current_wlan_ip=$(curl http://members.3322.org/dyndns/getip)
-previous_wlan_ip=$(cat /home/aaron/myservers/myserver-address)
+previous_wlan_ip=$(cat myserver-address)
 #previous_wlan_ip=192.168.0.11
 #echo $current_wlan_ip
 #echo $previous_wlan_ip
